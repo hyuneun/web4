@@ -19,6 +19,7 @@ window.onload = function(){
 var con = confirm("진짜삭제?");
  if(con === true){
 	<%
+	
 	request.setCharacterEncoding("utf-8");
 	String del = request.getParameter("del");
 
